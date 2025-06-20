@@ -5,7 +5,7 @@ This document outlines the complete functional flow of the Petstore MCP Server &
 ## System Architecture Overview
 
 ```
-AI Agent/Q CLI → Agent Interface → MCP Client → Transport Layer → MCP Server → Petstore API
+AI Agent Application → Agent Interface → MCP Client → Transport Layer → MCP Server → Petstore API
 ```
 
 ## Core Components Flow
