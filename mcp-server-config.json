@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "petstore": {
+      "command": "python3",
+      "args": ["petstore-mcp-server.py"],
+      "cwd": "/Users/praghavs/RP_HOME/code/qcli/petstore",
+      "env": {}
+    }
+  }
+}
