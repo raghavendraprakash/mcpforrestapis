@@ -1,0 +1,29 @@
+{
+  "bedrock_config": {
+    "region_name": "us-east-1",
+    "model_id": "anthropic.claude-3-sonnet-20240229-v1:0",
+    "fallback_model_id": "anthropic.claude-3-haiku-20240307-v1:0",
+    "max_retries": 3,
+    "timeout": 60
+  },
+  "mcp_config": {
+    "server_path": "./petstore-mcp-server.py",
+    "retry_attempts": 3,
+    "retry_delay": 1.0,
+    "log_level": "INFO",
+    "enable_caching": true,
+    "cache_ttl": 300
+  },
+  "rescue_operation_config": {
+    "batch_size": 10,
+    "processing_delay": 0.5,
+    "photo_base_url": "https://rescue-photos.example.com",
+    "default_status": "pending",
+    "auto_generate_tags": true
+  },
+  "ai_prompts": {
+    "assessment_model": "balanced",
+    "batch_processing_model": "conservative",
+    "report_generation_model": "creative"
+  }
+}
